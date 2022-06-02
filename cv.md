@@ -1,5 +1,5 @@
 Aleksandr Akiev
-WhatsApp: +7(991)514-27-16 / vk: https://vk.com/alex_notsimple / telegram: @aleksandr_akiev / inst: akiev_aleksandr_ / discord on rs school's server: Maestro(@MaestroFront)
+WhatsApp: +7(991)514-27-16 / vk: alex_notsimple / telegram: @aleksandr_akiev / inst: akiev_aleksandr_ / discord on rs school's server: Maestro(@MaestroFront)
 
 I'm an athlete. I am 28 years old. The sport is track and field. Worked in sports for 3 years.
 Graduated in 2018 from the University (Master of Sports) in Yekaterinburg.
