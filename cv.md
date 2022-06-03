@@ -68,6 +68,9 @@ No work experience
 
 Passed the simulators in HTML Academy, independent study on the learn.js and have pracrice on Codewars's platform
 
+![codewars](/codewars.png "codewars")
+![htmlacademy](/htmlacademy.png "htmlacademy")
+
 ## English
 
 Pre-Intermediate
