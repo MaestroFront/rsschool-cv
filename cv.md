@@ -70,4 +70,4 @@ Passed the simulators in HTML Academy, independent study on the learn.js and hav
 
 ## English
 
-A2
+Pre-Intermediate
