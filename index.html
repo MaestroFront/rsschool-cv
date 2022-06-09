@@ -1,1 +1,221 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>CV</title>
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <div class="header__container">
+                <nav class="menu">
+                    <div class="wrapper">
+                        <ul class="menu__list">
+                            <li class="menu__list_item"><a href="#contacts">Contacts</a></li>
+                            <li class="menu__list_item"><a href="#about">About Me</a></li>
+                            <li class="menu__list_item"><a href="#skills">Skills</a></li>
+                            <li class="menu__list_item"><a href="#code">Code Example</a></li>
+                            <li class="menu__list_item"><a href="#ee">Experience and Education</a></li>
+                            <li class="menu__list_item"><a href="#eng">English Level</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="wrapper">
+            <section class="info">
+                <div class="info__contact contact">
+                    <div class="info__author">
+                        <img class="info__avatar" src="./img/newavatar.jpg" alt="Avatar" width="280" height="430">
+                        <h1 class="info__name">Aleksandr Akiev</h1>
+                    </div>
+                    <div class="info__info" id="contacts">
+                        <div class="info__info_text">
+                            <ul class="info__info_list info__list">
+                                <li class="info__list_item">
+                                    <a href="tel:+79915142716" title="+7(991)514-27-16">
+                                        <img src="./img/whatsupp.png" alt="WhatsApp" width="25" height="25">
+                                    </a></li>
+                                <li class="info__list_item">
+                                    <a href="https://vk.com/alex_notsimple" title="alex_notsimple">
+                                        <img src="./img/vk.png" alt="Vkontakte" width="25" height="25">
+                                    </a>
+                                </li>
+                                <li class="info__list_item">
+                                    <a href="https://web.telegram.org/k/" title="@aleksandr_akiev">
+                                        <img src="./img/telegram.jpg" alt="Telegram" width="25" height="25">
+                                    </a>
+                                </li>
+                                <li class="info__list_item">
+                                    <a href="#" title="akiev_aleksandr_">
+                                        <img src="./img/instagram.png" alt="Instagram" width="25" height="25">
+                                    </a>
+                                </li>
+                                <li class="info__list_item">
+                                    <a href="#" title="Maestro(@MaestroFront)">
+                                        <img src="./img/discord.png" alt="Discord" width="25" height="20">
+                                    </a>
+                                </li>
+                                <li class="info__list_item">
+                                    <a href="mailto:akievaleksandr@mail.ru" title="akievaleksandr@mail.ru">
+                                        <img src="./img/mail.png" alt="Email" width="25" height="25">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="info__about about">
+                    <div class="about__title">
+                        <h2 id="about">About me</h2>
+                    </div>
+                    <div class="about__text">
+                        <p>I'm an athlete. I am 28 years old. The sport is track and field. Worked in sports for 3 years. Graduated in 2018 from the University (Master of Sports) in Yekaterinburg. Strengths: diligence, responsibility, endurance, attentiveness.</p>
+                        <br>
+                        <p>I have a desire to study in the field of IT in frontend development. There is no work experience in this field. I started to study the profession of frontend developer on my own.</p>
+                        
+                    </div>
+                </div>
+            </section>
+            <section class="skills">
+                <div class="skills__title">
+                    <h2 id="skills">Skills</h2>
+                </div>
+                <div class="skills__text">
+                    <ol class="skills__list">
+                        <li class="skills__list_item">HTML</li>
+                        <li class="skills__list_item">CSS</li>
+                        <li class="skills__list_item">JS (a little)</li>
+                        <li class="skills__list_item">Adaptive layout</li>
+                    </ol>
+                    <ol class="skills__list" start="5">
+                        <li class="skills__list_item">VSCode</li>
+                        <li class="skills__list_item">Prepros</li>
+                        <li class="skills__list_item">Figma</li>
+                    </ol>
+                    <ol class="skills__list" start="8">
+                        <li class="skills__list_item">BEM</li>
+                        <li class="skills__list_item">Flex</li>
+                        <li class="skills__list_item">Grid</li>
+                        <li class="skills__list_item">SASS</li>
+                    </ol>
+                    <ol class="skills__list" start="12">
+                        <li class="skills__list_item">learn.js</li>
+                        <li class="skills__list_item">Codewars</li>
+                        <li class="skills__list_item">HTML Academy</li>
+                        <li class="skills__list_item">Htmlbook.ru</li>
+                    </ol>
+                    <ol class="skills__list" start="16">
+                        <li class="skills__list_item">Functions</li>
+                        <li class="skills__list_item">Objects</li>
+                        <li class="skills__list_item">Arrays</li>
+                    </ol>
+                </div>
+            </section>
+            <section class="example">
+                <div class="example__title" id="ee">
+                    <h2 id="code">Code Example (Codewars)</h2>
+                    <a href="https://www.codewars.com/users/Maestro_"><img src="./img/codewarslogo.png" alt="codewarslogo" title="Maestro_" width="30" height="30"></a>
+                </div>
+                <div class="example__code_list code__list">
+                    <div class="code__list_item">
+                        <p>
+                            <code>
+                                function countPositivesSumNegatives(input) { <br>
+                                    if (input === null || input.length === 0) { <br>
+                                      return []; <br>
+                                    } <br>
+                                    let amount = 0; <br>
+                                    let sum = 0; <br>
+                                    for (let i = 0; i &lt; input.length; i++) { <br>
+                                      if (input[i] > 0) { <br>
+                                        amount++; <br>
+                                      } else if (input[i] &lt; 0) { <br>
+                                        sum += input[i]; <br>
+                                      } <br>
+                                    } <br>
+                                    return [amount, sum]; <br>
+                                  }
+                            </code>
+                        </p>
+                    </div>
+                    <div class="code__list_item">
+                        <p>
+                            <code>
+                                let countSheep = function (num){ <br>
+                                    let sheepCount = ""; <br>
+                                    for (let i = 0; i &lt; num; i++) { <br>
+                                      if (num === 0) { <br>
+                                        return sheepCount; <br>
+                                      } else if (num > 0) { <br>
+                                        sheepCount += (i+1) + ' sheep' + '...'; <br>
+                                      } <br>
+                                    } <br>
+                                    return sheepCount; <br>
+                                  } <br>
+                            </code>
+                        </p>
+                    </div>
+                    <div class="code__list_item">
+                        <p>
+                            <code>
+                                function findNb(m) { <br>
+                                    let n = 0; <br>
+                                    let sum = 0; <br>
+                                    while (sum &lt; m) { <br>
+                                      n++; <br>
+                                      sum += Math.pow(n, 3); <br>
+                                    } <br>
+                                    return sum === m ? n : -1; <br>
+                                  } <br>
+                            </code>
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="experience">
+                <div class="experience__title">
+                    <h2>Experience and Education</h2>
+                </div>
+                <div class="experience__body">
+                    <div class="experience__body_text">
+                        <p>I have No work experience</p>
+                        <p>I am going through simulations at the <a href="https://htmlacademy.ru/study">HTML Academy</a>, self-study on <a href="https://learn.javascript.ru/">learn.js</a> and practice on the <a href="https://www.codewars.com/">Codewars</a> platform</p>
+                    </div>
+                    <div class="experience__body_screenshots">
+                        <img src="./img/codewars.png" width="410" height="220" title="codewars" alt="codewars">
+                        <img src="./img/htmlacademy.png" width="410" height="220" title="htmlacademy" alt="htmlacademy">
+                    </div>
+                </div>
+            </section>
+            <section class="english" id="eng">
+                <h2 class="english__title">English level</h2>
+                <p class="english__text">Pre-Intermediate</p>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer__container">
+                <div class="footer__logo">
+                    <a href="https://rs.school/js/">
+                        <img src="./img/rs.png" alt="course" title="Course «JavaScript/Front-end»" width="100" height="40">
+                    </a>
+                </div>
+                <div class="footer__github">
+                    <a href="https://github.com/MaestroFront">
+                        <img src="./img/github.png" alt="github" title="GitHub" width="45" height="45">
+                    </a>
+                </div>
+                <div class="footer__year">2022</div>
+            </div>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
