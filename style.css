@@ -43,6 +43,13 @@ h2 {
     color: gold;
     letter-spacing: 2px;
 }
+.menu__list_item {
+    transition-duration: 1.5s;
+}
+.menu__list_item:hover {
+    transform: scale(1.1);
+    transition-duration: 1.5s;
+}
 
 .info {
     padding: 30px 15px;
@@ -179,6 +186,7 @@ h2 {
 .footer__container {
     display: flex;
     align-items: center;
+    justify-content: space-around;
     padding: 30px 15px;
 }
 .footer__logo, .footer__github {
