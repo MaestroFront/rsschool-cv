@@ -1,5 +1,5 @@
 # Aleksandr Akiev
-![avatar](/newavatar.jpg "Avatar")
+![avatar](.img/newavatar.jpg "Avatar")
 
 ## Contacts
 
@@ -68,8 +68,8 @@ No work experience
 
 Passed the simulators in HTML Academy, independent study on the learn.js and have pracrice on Codewars's platform
 
-![codewars](/codewars.png "codewars")
-![htmlacademy](/htmlacademy.png "htmlacademy")
+![codewars](.img/codewars.png "codewars")
+![htmlacademy](.img/htmlacademy.png "htmlacademy")
 
 ## English
 
