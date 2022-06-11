@@ -1,1 +1,194 @@
+@import url(./nullstyle.css);
+@font-face {
+    font-family: 'Orbit';
+    src: url(./fonts/Orbitron-VariableFont_wght.ttf);
+}
+body {
+    font-family: 'Orbit';
+    background: url(./img/background.jpg) scroll;
+    background-size: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    letter-spacing: 2px;
+}
+a {
+    color: white;
+}
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+h1 {
+    font-weight: 800;
+    font-size: 30px;
+}
+h2 {
+    font-weight: 700;
+    font-size: 26px;
+}
+.header__container {
+    padding: 30px 15px;
+}
+.menu__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 15px;
+    border-top: 2px solid gold;
+    border-bottom: 2px solid gold;
+}
+.menu__list_item a, h1, h2 {
+    color: gold;
+    letter-spacing: 2px;
+}
+.menu__list_item {
+    transition-duration: 1.5s;
+}
+.menu__list_item:hover {
+    transform: scale(1.1);
+    transition-duration: 1.5s;
+}
 
+.info {
+    padding: 30px 15px;
+    display: flex;
+    border-bottom: 2px solid gold;
+    letter-spacing: 5px;
+}
+.info__contact {
+    margin-right: 50px;
+}
+.info__author {
+    margin-bottom: 15px;
+}
+.info__name {
+    padding: 15px 15px 5px 15px;
+    text-align: center;
+}
+.info__avatar {
+    border-radius: 50px;
+}
+.info__info_title {
+    margin-bottom: 15px;
+    text-align: center;
+}
+.info__list {
+    display: flex;
+    max-width: 300px;
+    align-items: center;
+    justify-content: space-between;
+}
+.info__list_item:not(:last-child) {
+    margin-right: 10px;
+}
+.info__list_item img {
+    transition-duration: 1s;
+}
+.info__list_item img:hover {
+    transform: scale(1.5);
+    transition-duration: 1s;
+}
+.about__title {
+    margin-bottom: 15px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+.about__text {
+    font-size: 20px;
+    line-height: 40px;
+    padding: 0px 15px;
+    text-indent: 20px;
+    letter-spacing: 5px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 15px;
+    border-bottom: 2px solid gold;
+}
+.skills__title {
+    margin-bottom: 10px;
+}
+.skills__text {
+    display: flex;
+    justify-content: space-around;
+}
+.skills__list {
+    padding: 20px;
+}
+.skills__list_item {
+    font-size: 18px;
+}
+.skills__list_item:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.example {
+    padding: 30px 15px;
+    border-bottom: 2px solid gold;
+}
+.example__title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.example__title h2 {
+    margin-right: 10px;
+}
+.code__list {
+    display: flex;
+    justify-content: space-between;
+}
+.code__list_item {
+    border: 1px solid white;
+    padding: 5px;
+}
+.code__list_item:not(:last-child) {
+    margin-right: 20px;
+}
+
+.experience {
+    padding: 30px 15px;
+    border-bottom: 2px solid gold;
+}
+.experience__title {
+    margin-bottom: 15px;
+}
+.experience__body_text {
+    margin-bottom: 30px;
+}
+.experience__body_screenshots {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.experience__body_screenshots img {
+    border-radius: 15px;
+}
+.experience__body_text a {
+    color: gold;
+}
+.experience__body_text p {
+    line-height: 30px;
+}
+
+.english {
+    padding: 30px 15px;
+    border-bottom: 2px solid gold;
+}
+.english__title {
+    margin-bottom: 15px;
+}
+
+.footer__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 15px;
+}
+.footer__logo, .footer__github {
+    margin-right: 15px;
+}
