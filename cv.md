@@ -1,5 +1,5 @@
 # Aleksandr Akiev
-![avatar](/img/newavatar.jpg "Avatar" =100x20)
+![avatar](/img/newavatar.jpg "Avatar")
 
 ## Contacts
 
