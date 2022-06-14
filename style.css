@@ -38,14 +38,14 @@ h2 {
     border-top: 2px solid gold;
     border-bottom: 2px solid gold;
 }
-.menu__list_item a, h1, h2 {
+.menu__item a, h1, h2 {
     color: gold;
     letter-spacing: 2px;
 }
-.menu__list_item {
+.menu__item {
     transition-duration: 1.5s;
 }
-.menu__list_item:hover {
+.menu__item:hover {
     transform: scale(1.1);
     transition-duration: 1.5s;
 }
@@ -68,10 +68,8 @@ h2 {
 }
 .info__avatar {
     border-radius: 50px;
-}
-.info__info_title {
-    margin-bottom: 15px;
-    text-align: center;
+    width: 280px;
+    height: 430px;
 }
 .info__list {
     display: flex;
@@ -79,13 +77,18 @@ h2 {
     align-items: center;
     justify-content: space-between;
 }
-.info__list_item:not(:last-child) {
+.info__item:not(:last-child) {
     margin-right: 10px;
 }
-.info__list_item img {
+.info__item img {
+    width: 25px;
+    height: 25px;
     transition-duration: 1s;
 }
-.info__list_item img:hover {
+.info__item:nth-child(5) img {
+    height: 20px;
+}
+.info__item img:hover {
     transform: scale(1.5);
     transition-duration: 1s;
 }
@@ -100,6 +103,9 @@ h2 {
     padding: 0px 15px;
     text-indent: 20px;
     letter-spacing: 5px;
+}
+.about__text p:first-child {
+    margin-bottom: 20px;
 }
 
 .skills {
@@ -134,6 +140,10 @@ h2 {
     align-items: center;
     margin-bottom: 20px;
 }
+.example__title img {
+    width: 30px;
+    height: 30px;
+}
 .example__title h2 {
     margin-right: 10px;
 }
@@ -165,6 +175,8 @@ h2 {
     justify-content: space-around;
 }
 .experience__body_screenshots img {
+    width: 410px;
+    height: 220px;
     border-radius: 15px;
 }
 .experience__body_text a {
@@ -182,7 +194,7 @@ h2 {
     margin-bottom: 15px;
 }
 
-.footer__container {
+.wrapper__container {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -190,4 +202,13 @@ h2 {
 }
 .footer__logo, .footer__github {
     margin-right: 15px;
+}
+.footer__github a img {
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+}
+.footer__logo a img {
+    width: 100px;
+    height: 40px;
 }

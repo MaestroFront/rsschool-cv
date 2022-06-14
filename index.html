@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./nullstyle.css">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link type="text/css" rel="stylesheet" href="nullstyle.css">
     <link rel="icon" href="./img/logo.png">
     <title>CV</title>
 </head>
@@ -14,16 +14,14 @@
         <div class="wrapper">
             <div class="header__container">
                 <nav class="menu">
-                    <div class="wrapper">
-                        <ul class="menu__list">
-                            <li class="menu__list_item"><a href="#contacts">Contacts</a></li>
-                            <li class="menu__list_item"><a href="#about">About Me</a></li>
-                            <li class="menu__list_item"><a href="#skills">Skills</a></li>
-                            <li class="menu__list_item"><a href="#code">Code Example</a></li>
-                            <li class="menu__list_item"><a href="#ee">Experience and Education</a></li>
-                            <li class="menu__list_item"><a href="#eng">English Level</a></li>
-                        </ul>
-                    </div>
+                    <ul class="menu__list">
+                        <li class="menu__item"><a href="#contacts">Contacts</a></li>
+                        <li class="menu__item"><a href="#about">About Me</a></li>
+                        <li class="menu__item"><a href="#skills">Skills</a></li>
+                        <li class="menu__item"><a href="#code">Code Example</a></li>
+                        <li class="menu__item"><a href="#ee">Experience and Education</a></li>
+                        <li class="menu__item"><a href="#eng">English Level</a></li>
+                    </ul>
                 </nav>
             </div>
         </div>
@@ -37,33 +35,34 @@
                         <h1 class="info__name">Aleksandr Akiev</h1>
                     </div>
                     <div class="info__info">
-                        <div class="info__info_text">
-                            <ul class="info__info_list info__list">
-                                <li class="info__list_item">
+                        <div class="info__text">
+                            <ul class="info__list">
+                                <li class="info__item">
                                     <a href="tel:+79915142716" title="+7(991)514-27-16">
                                         <img src="./img/whatsupp.png" alt="WhatsApp" width="25" height="25">
-                                    </a></li>
-                                <li class="info__list_item">
+                                    </a>
+                                </li>
+                                <li class="info__item">
                                     <a href="https://vk.com/alex_notsimple" title="alex_notsimple">
                                         <img src="./img/vk.png" alt="Vkontakte" width="25" height="25">
                                     </a>
                                 </li>
-                                <li class="info__list_item">
+                                <li class="info__item">
                                     <a href="https://web.telegram.org/k/" title="@aleksandr_akiev">
                                         <img src="./img/telegram.jpg" alt="Telegram" width="25" height="25">
                                     </a>
                                 </li>
-                                <li class="info__list_item">
+                                <li class="info__item">
                                     <a href="#" title="akiev_aleksandr_">
                                         <img src="./img/instagram.png" alt="Instagram" width="25" height="25">
                                     </a>
                                 </li>
-                                <li class="info__list_item">
+                                <li class="info__item">
                                     <a href="#" title="Maestro(@MaestroFront)">
                                         <img src="./img/discord.png" alt="Discord" width="25" height="20">
                                     </a>
                                 </li>
-                                <li class="info__list_item">
+                                <li class="info__item">
                                     <a href="mailto:akievaleksandr@mail.ru" title="akievaleksandr@mail.ru">
                                         <img src="./img/mail.png" alt="Email" width="25" height="25">
                                     </a>
@@ -78,7 +77,6 @@
                     </div>
                     <div class="about__text">
                         <p>I'm an athlete. I am 28 years old. The sport is track and field. Worked in sports for 3 years. Graduated in 2018 from the University (Master of Sports) in Yekaterinburg. Strengths: diligence, responsibility, endurance, attentiveness.</p>
-                        <br>
                         <p>I have a desire to study in the field of IT in frontend development. There is no work experience in this field. I started to study the profession of frontend developer on my own.</p>
                         
                     </div>
@@ -121,7 +119,7 @@
             </section>
             <section class="example" id="code">
                 <div class="example__title">
-                    <h2 id="code">Code Example (Codewars)</h2>
+                    <h2>Code Example (Codewars)</h2>
                     <a href="https://www.codewars.com/users/Maestro_"><img src="./img/codewarslogo.png" alt="codewarslogo" title="Maestro_" width="30" height="30"></a>
                 </div>
                 <div class="example__code_list code__list">
@@ -202,20 +200,18 @@
         </div>
     </main>
     <footer class="footer">
-        <div class="wrapper">
-            <div class="footer__container">
-                <div class="footer__logo">
-                    <a href="https://rs.school/js/">
-                        <img src="./img/rs.png" alt="course" title="Course «JavaScript/Front-end»" width="100" height="40">
-                    </a>
-                </div>
-                <div class="footer__github">
-                    <a href="https://github.com/MaestroFront">
-                        <img src="./img/github.png" alt="github" title="GitHub" width="45" height="45">
-                    </a>
-                </div>
-                <div class="footer__year">2022</div>
+        <div class="wrapper wrapper__container">
+            <div class="footer__logo">
+                <a href="https://rs.school/js/">
+                    <img src="./img/rs.png" alt="course" title="Course «JavaScript/Front-end»" width="100" height="40">
+                </a>
             </div>
+            <div class="footer__github">
+                <a href="https://github.com/MaestroFront">
+                    <img src="./img/github.png" alt="github" title="GitHub" width="45" height="45">
+                </a>
+            </div>
+            <div class="footer__year">2022</div>
         </div>
     </footer>
     <script src="./script.js"></script>
