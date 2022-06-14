@@ -10,68 +10,62 @@
     <title>CV</title>
 </head>
 <body>
-    <header class="header">
-        <div class="wrapper">
-            <div class="header__container">
-                <nav class="menu">
-                    <ul class="menu__list">
-                        <li class="menu__item"><a href="#contacts">Contacts</a></li>
-                        <li class="menu__item"><a href="#about">About Me</a></li>
-                        <li class="menu__item"><a href="#skills">Skills</a></li>
-                        <li class="menu__item"><a href="#code">Code Example</a></li>
-                        <li class="menu__item"><a href="#ee">Experience and Education</a></li>
-                        <li class="menu__item"><a href="#eng">English Level</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </header>
-    <main class="main">
-        <div class="wrapper">
+    <div class="wrapper">
+        <header class="header">
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li class="menu__item"><a href="#contacts">Contacts</a></li>
+                    <li class="menu__item"><a href="#about">About Me</a></li>
+                    <li class="menu__item"><a href="#skills">Skills</a></li>
+                    <li class="menu__item"><a href="#code">Code Example</a></li>
+                    <li class="menu__item"><a href="#experience">Experience and Education</a></li>
+                    <li class="menu__item"><a href="#eng">English Level</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main">
             <section class="info">
-                <div class="info__contact contact">
-                    <div class="info__author" id="contacts">
-                        <img class="info__avatar" src="./img/newavatar.jpg" alt="Avatar" width="280" height="430" title="Yes, it's me!">
-                        <h1 class="info__name">Aleksandr Akiev</h1>
+                <div class="info__author">
+                    <div class="author" id="contacts">
+                        <img class="author__avatar" src="./img/newavatar.jpg" alt="Avatar" width="280" height="430" title="Yes, it's me!">
+                        <h1 class="author__name">Aleksandr Akiev</h1>
                     </div>
-                    <div class="info__info">
-                        <div class="info__text">
-                            <ul class="info__list">
-                                <li class="info__item">
-                                    <a href="tel:+79915142716" title="+7(991)514-27-16">
-                                        <img src="./img/whatsupp.png" alt="WhatsApp" width="25" height="25">
-                                    </a>
-                                </li>
-                                <li class="info__item">
-                                    <a href="https://vk.com/alex_notsimple" title="alex_notsimple">
-                                        <img src="./img/vk.png" alt="Vkontakte" width="25" height="25">
-                                    </a>
-                                </li>
-                                <li class="info__item">
-                                    <a href="https://web.telegram.org/k/" title="@aleksandr_akiev">
-                                        <img src="./img/telegram.jpg" alt="Telegram" width="25" height="25">
-                                    </a>
-                                </li>
-                                <li class="info__item">
-                                    <a href="#" title="akiev_aleksandr_">
-                                        <img src="./img/instagram.png" alt="Instagram" width="25" height="25">
-                                    </a>
-                                </li>
-                                <li class="info__item">
-                                    <a href="#" title="Maestro(@MaestroFront)">
-                                        <img src="./img/discord.png" alt="Discord" width="25" height="20">
-                                    </a>
-                                </li>
-                                <li class="info__item">
-                                    <a href="mailto:akievaleksandr@mail.ru" title="akievaleksandr@mail.ru">
-                                        <img src="./img/mail.png" alt="Email" width="25" height="25">
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
+                    <div class="contacts">
+                        <ul class="contacts__list">
+                            <li class="contacts__item">
+                                <a href="tel:+79915142716" title="+7(991)514-27-16">
+                                    <img src="./img/whatsupp.png" alt="WhatsApp" width="25" height="25">
+                                </a>
+                            </li>
+                            <li class="contacts__item">
+                                <a href="https://vk.com/alex_notsimple" title="alex_notsimple">
+                                    <img src="./img/vk.png" alt="Vkontakte" width="25" height="25">
+                                </a>
+                            </li>
+                            <li class="contacts__item">
+                                <a href="https://web.telegram.org/k/" title="@aleksandr_akiev">
+                                    <img src="./img/telegram.jpg" alt="Telegram" width="25" height="25">
+                                </a>
+                            </li>
+                            <li class="contacts__item">
+                                <a href="#" title="akiev_aleksandr_">
+                                    <img src="./img/instagram.png" alt="Instagram" width="25" height="25">
+                                </a>
+                            </li>
+                            <li class="contacts__item">
+                                <a href="#" title="Maestro(@MaestroFront)">
+                                    <img src="./img/discord.png" alt="Discord" width="25" height="20">
+                                </a>
+                            </li>
+                            <li class="contacts__item">
+                                <a href="mailto:akievaleksandr@mail.ru" title="akievaleksandr@mail.ru">
+                                    <img src="./img/mail.png" alt="Email" width="25" height="25">
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-                <div class="info__about about" id="about">
+                <div class="info__about" id="about">
                     <div class="about__title">
                         <h2>About me</h2>
                     </div>
@@ -86,44 +80,46 @@
                 <div class="skills__title">
                     <h2>Skills</h2>
                 </div>
-                <div class="skills__text">
+                <div class="skills__content">
                     <ol class="skills__list">
-                        <li class="skills__list_item">HTML</li>
-                        <li class="skills__list_item">CSS</li>
-                        <li class="skills__list_item">JS (a little)</li>
-                        <li class="skills__list_item">Adaptive layout</li>
+                        <li class="skills__item">HTML</li>
+                        <li class="skills__item">CSS</li>
+                        <li class="skills__item">JS (a little)</li>
+                        <li class="skills__item">Adaptive layout</li>
                     </ol>
                     <ol class="skills__list" start="5">
-                        <li class="skills__list_item">VSCode</li>
-                        <li class="skills__list_item">Prepros</li>
-                        <li class="skills__list_item">Figma</li>
+                        <li class="skills__item">VSCode</li>
+                        <li class="skills__item">Prepros</li>
+                        <li class="skills__item">Figma</li>
                     </ol>
                     <ol class="skills__list" start="8">
-                        <li class="skills__list_item">BEM</li>
-                        <li class="skills__list_item">Flex</li>
-                        <li class="skills__list_item">Grid</li>
-                        <li class="skills__list_item">SASS</li>
+                        <li class="skills__item">BEM</li>
+                        <li class="skills__item">Flex</li>
+                        <li class="skills__item">Grid</li>
+                        <li class="skills__item">SASS</li>
                     </ol>
                     <ol class="skills__list" start="12">
-                        <li class="skills__list_item">learn.js</li>
-                        <li class="skills__list_item">Codewars</li>
-                        <li class="skills__list_item">HTML Academy</li>
-                        <li class="skills__list_item">Htmlbook.ru</li>
+                        <li class="skills__item">learn.js</li>
+                        <li class="skills__item">Codewars</li>
+                        <li class="skills__item">HTML Academy</li>
+                        <li class="skills__item">Htmlbook.ru</li>
                     </ol>
                     <ol class="skills__list" start="16">
-                        <li class="skills__list_item">Functions</li>
-                        <li class="skills__list_item">Objects</li>
-                        <li class="skills__list_item">Arrays</li>
+                        <li class="skills__item">Functions</li>
+                        <li class="skills__item">Objects</li>
+                        <li class="skills__item">Arrays</li>
                     </ol>
                 </div>
             </section>
-            <section class="example" id="code">
-                <div class="example__title">
+            <section class="code" id="code">
+                <div class="code__title">
                     <h2>Code Example (Codewars)</h2>
-                    <a href="https://www.codewars.com/users/Maestro_"><img src="./img/codewarslogo.png" alt="codewarslogo" title="Maestro_" width="30" height="30"></a>
+                    <a href="https://www.codewars.com/users/Maestro_">
+                        <img src="./img/codewarslogo.png" alt="codewarslogo" title="Maestro_" width="30" height="30">
+                    </a>
                 </div>
-                <div class="example__code_list code__list">
-                    <div class="code__list_item">
+                <div class="code__content">
+                    <div class="code__item">
                         <p>
                             <code>
                                 function countPositivesSumNegatives(input) { <br>
@@ -144,7 +140,7 @@
                             </code>
                         </p>
                     </div>
-                    <div class="code__list_item">
+                    <div class="code__item">
                         <p>
                             <code>
                                 let countSheep = function (num){ <br>
@@ -161,7 +157,7 @@
                             </code>
                         </p>
                     </div>
-                    <div class="code__list_item">
+                    <div class="code__item">
                         <p>
                             <code>
                                 function findNb(m) { <br>
@@ -178,16 +174,16 @@
                     </div>
                 </div>
             </section>
-            <section class="experience" id="ee">
+            <section class="experience" id="experience">
                 <div class="experience__title">
                     <h2>Experience and Education</h2>
                 </div>
                 <div class="experience__body">
-                    <div class="experience__body_text">
+                    <div class="work__experience">
                         <p>I have No work experience</p>
                         <p>I am going through simulations at the <a href="https://htmlacademy.ru/study" title="link">HTML Academy</a>, self-study on <a href="https://learn.javascript.ru/" title="link">learn.js</a> and practice on the <a href="https://www.codewars.com/" title="link">Codewars</a> platform</p>
                     </div>
-                    <div class="experience__body_screenshots">
+                    <div class="proof__screenshots">
                         <img src="./img/codewars.png" width="410" height="220" title="codewars" alt="codewars">
                         <img src="./img/htmlacademy.png" width="410" height="220" title="htmlacademy" alt="htmlacademy">
                     </div>
@@ -197,23 +193,23 @@
                 <h2 class="english__title">English level</h2>
                 <p class="english__text">Pre-Intermediate</p>
             </section>
-        </div>
-    </main>
-    <footer class="footer">
-        <div class="wrapper wrapper__container">
-            <div class="footer__logo">
-                <a href="https://rs.school/js/">
-                    <img src="./img/rs.png" alt="course" title="Course «JavaScript/Front-end»" width="100" height="40">
-                </a>
+        </main>
+        <footer class="footer">
+            <div class="wrapper__container">
+                <div class="rsschool__logo">
+                    <a href="https://rs.school/js/">
+                        <img src="./img/rs.png" alt="course" title="Course «JavaScript/Front-end»" width="100" height="40">
+                    </a>
+                </div>
+                <div class="github__page">
+                    <a href="https://github.com/MaestroFront">
+                        <img src="./img/github.png" alt="github" title="GitHub" width="45" height="45">
+                    </a>
+                </div>
+                <div class="today__year">2022</div>
             </div>
-            <div class="footer__github">
-                <a href="https://github.com/MaestroFront">
-                    <img src="./img/github.png" alt="github" title="GitHub" width="45" height="45">
-                </a>
-            </div>
-            <div class="footer__year">2022</div>
-        </div>
-    </footer>
+        </footer>
+    </div>
     <script src="./script.js"></script>
 </body>
 </html>

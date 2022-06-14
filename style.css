@@ -19,6 +19,7 @@ a {
     max-width: 1000px;
     margin: 0 auto;
 }
+
 h1 {
     font-weight: 800;
     font-size: 30px;
@@ -26,8 +27,10 @@ h1 {
 h2 {
     font-weight: 700;
     font-size: 26px;
+    color: gold;
+    letter-spacing: 2px;
 }
-.header__container {
+.header {
     padding: 30px 15px;
 }
 .menu__list {
@@ -56,39 +59,39 @@ h2 {
     border-bottom: 2px solid gold;
     letter-spacing: 5px;
 }
-.info__contact {
+.info__author {
     margin-right: 50px;
 }
-.info__author {
+.author {
     margin-bottom: 15px;
 }
-.info__name {
+.author__name {
     padding: 15px 15px 5px 15px;
     text-align: center;
 }
-.info__avatar {
+.author__avatar {
     border-radius: 50px;
     width: 280px;
     height: 430px;
 }
-.info__list {
+.contacts__list {
     display: flex;
     max-width: 300px;
     align-items: center;
     justify-content: space-between;
 }
-.info__item:not(:last-child) {
+.contacts__item:not(:last-child) {
     margin-right: 10px;
 }
-.info__item img {
+.contacts__item img {
     width: 25px;
     height: 25px;
     transition-duration: 1s;
 }
-.info__item:nth-child(5) img {
+.contacts__item:nth-child(5) img {
     height: 20px;
 }
-.info__item img:hover {
+.contacts__item img:hover {
     transform: scale(1.5);
     transition-duration: 1s;
 }
@@ -117,45 +120,45 @@ h2 {
 .skills__title {
     margin-bottom: 10px;
 }
-.skills__text {
+.skills__content {
     display: flex;
     justify-content: space-around;
 }
 .skills__list {
     padding: 20px;
 }
-.skills__list_item {
+.skills__item {
     font-size: 18px;
 }
-.skills__list_item:not(:last-child) {
+.skills__item:not(:last-child) {
     margin-bottom: 10px;
 }
 
-.example {
+.code {
     padding: 30px 15px;
     border-bottom: 2px solid gold;
 }
-.example__title {
+.code__title {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
 }
-.example__title img {
+.code__title img {
     width: 30px;
     height: 30px;
 }
-.example__title h2 {
+.code__title h2 {
     margin-right: 10px;
 }
-.code__list {
+.code__content {
     display: flex;
     justify-content: space-between;
 }
-.code__list_item {
+.code__item {
     border: 1px solid white;
     padding: 5px;
 }
-.code__list_item:not(:last-child) {
+.code__item:not(:last-child) {
     margin-right: 20px;
 }
 
@@ -166,23 +169,23 @@ h2 {
 .experience__title {
     margin-bottom: 15px;
 }
-.experience__body_text {
+.work__experience {
     margin-bottom: 30px;
 }
-.experience__body_screenshots {
+.proof__screenshots {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-.experience__body_screenshots img {
+.proof__screenshots img {
     width: 410px;
     height: 220px;
     border-radius: 15px;
 }
-.experience__body_text a {
+.work__experience a {
     color: gold;
 }
-.experience__body_text p {
+.work__experience p {
     line-height: 30px;
 }
 
@@ -200,15 +203,15 @@ h2 {
     justify-content: space-around;
     padding: 30px 15px;
 }
-.footer__logo, .footer__github {
+.rsschool__logo, .github__page {
     margin-right: 15px;
 }
-.footer__github a img {
+.github__page a img {
     width: 45px;
     height: 45px;
     display: inline-block;
 }
-.footer__logo a img {
+.rsschool__logo a img {
     width: 100px;
     height: 40px;
 }
