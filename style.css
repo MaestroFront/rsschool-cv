@@ -19,17 +19,21 @@ a {
     max-width: 1000px;
     margin: 0 auto;
 }
-
 h1 {
-    font-weight: 800;
     font-size: 30px;
 }
 h2 {
-    font-weight: 700;
     font-size: 26px;
     color: gold;
     letter-spacing: 2px;
 }
+.info, .skills, .code, .experience, .english {
+    padding: 50px 15px;
+    border-bottom: 2px solid gold;
+}
+
+/*           HEADER           */
+
 .header {
     padding: 30px 15px;
 }
@@ -53,10 +57,12 @@ h2 {
     transition-duration: 1.5s;
 }
 
+/*                          */
+
+/*           SECTION INFO           */
+
 .info {
-    padding: 30px 15px;
     display: flex;
-    border-bottom: 2px solid gold;
     letter-spacing: 5px;
 }
 .info__author {
@@ -111,11 +117,13 @@ h2 {
     margin-bottom: 20px;
 }
 
+/*                          */
+
+/*           SECTION SKILLS           */
+
 .skills {
     display: flex;
     flex-direction: column;
-    padding: 30px 15px;
-    border-bottom: 2px solid gold;
 }
 .skills__title {
     margin-bottom: 10px;
@@ -134,10 +142,10 @@ h2 {
     margin-bottom: 10px;
 }
 
-.code {
-    padding: 30px 15px;
-    border-bottom: 2px solid gold;
-}
+/*                          */
+
+/*           SECTION CODE           */
+
 .code__title {
     display: flex;
     align-items: center;
@@ -162,10 +170,10 @@ h2 {
     margin-right: 20px;
 }
 
-.experience {
-    padding: 30px 15px;
-    border-bottom: 2px solid gold;
-}
+/*                          */
+
+/*           SECTION EXPERIENCE           */
+
 .experience__title {
     margin-bottom: 15px;
 }
@@ -189,15 +197,19 @@ h2 {
     line-height: 30px;
 }
 
-.english {
-    padding: 30px 15px;
-    border-bottom: 2px solid gold;
-}
+/*                          */
+
+/*           SECTION ENGLISH           */
+
 .english__title {
     margin-bottom: 15px;
 }
 
-.wrapper__container {
+/*                          */
+
+/*           FOOTER           */
+
+.footer__container {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -215,3 +227,5 @@ h2 {
     width: 100px;
     height: 40px;
 }
+
+/*                          */
