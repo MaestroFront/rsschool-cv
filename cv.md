@@ -1,5 +1,6 @@
 # Aleksandr Akiev
-![avatar](/img/newavatar.jpg "Avatar")
+![avatar](https://user-images.githubusercontent.com/71702282/188426240-b3003bbb-2f4c-444c-9d4d-87cf1b5cc703.jpg)
+
 
 ## Contacts
 
@@ -18,6 +19,8 @@ Strengths: diligence, diligence, responsibility, endurance, attentiveness
 I have a desire to study in the field of IT in frontend development.
 There is no work experience in this field.
 I started to study the profession of frontend developer on my own
+
+I finished Stage 0 at RS School.
 
 ## Skills
 
