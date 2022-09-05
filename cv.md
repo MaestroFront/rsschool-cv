@@ -45,21 +45,22 @@ I finished Stage 0 at RS School.
 
 ## Code example (Codewars)
 
-```
-function countPositivesSumNegatives(input) {
-  if (input === null || input.length === 0) {
-    return [];
+```js
+const convert = (input, source, target, s = 0, str = '') => {
+
+  const fromInputToSourceSystem = () => {
+    input.split('').map(item => s = s * source.length + source.indexOf(item));
   }
-  let amount = 0;
-  let sum = 0;
-  for (let i = 0; i < input.length; i++) {
-    if (input[i] > 0) {
-      amount++;
-    } else if (input[i] < 0) {
-      sum += input[i];
+
+  fromInputToSourceSystem();
+
+  const fromSourceSystemToTargetSystem = () => {
+    while (s > 0) {
+      str = target[s % target.length] + str;
+      s = Math.floor(s / target.length);
     }
   }
-  return [amount, sum];
+
 }
 ```
 
