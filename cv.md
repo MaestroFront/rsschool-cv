@@ -66,7 +66,7 @@ const convert = (input, source, target, s = 0, str = '') => {
 
 ## Experience
 
-No work experience
+Rs-School - Stage #0.
 
 ## Education
 
