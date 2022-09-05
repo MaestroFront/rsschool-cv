@@ -75,6 +75,18 @@ Passed the simulators in HTML Academy, independent study on the learn.js and hav
 ![codewars](/img/codewars.png "codewars")
 ![htmlacademy](/img/htmlacademy.png "htmlacademy")
 
+## Projects
+
+codejam-eldritch 
+![image](https://user-images.githubusercontent.com/71702282/188436729-f9b6dc63-da9b-4fe7-99f1-b016cfe37d19.png)
+
+momentum
+![image](https://user-images.githubusercontent.com/71702282/188436746-f3e81742-f0bc-4e47-8910-d52d1891b49f.png)
+
+travel
+![image](https://user-images.githubusercontent.com/71702282/188436768-b1b40277-2635-428a-9a9e-565cfc616c31.png)
+
+
 ## English
 
 Pre-Intermediate
