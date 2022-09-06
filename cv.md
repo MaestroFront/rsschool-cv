@@ -76,6 +76,9 @@ Passed the simulators in HTML Academy, independent study on the learn.js and hav
 - Momentum
 ![momentum](/img/project1.png "Momentum")
 
+- Codejam
+![codejam](/img/project3.png "Codejam")
+
 ## English
 
 Pre-Intermediate
