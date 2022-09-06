@@ -69,29 +69,29 @@ Rs-School - Stage #0.
 
 - stage#0 (RS School)
 
-![rsschool](/img/stage%230.png "rsschool")
+![stage0](https://user-images.githubusercontent.com/71702282/188666314-591ebdf7-ace7-45e4-a643-4167143d095f.png)
 
 - codewars
 
-![codewars](/img/codewarsStats.png "codewars")
+![codewarsStats](https://user-images.githubusercontent.com/71702282/188666336-2775e424-0a15-42f6-a414-79154b0c9e01.png)
 
--htmlAcademy
+- htmlAcademy
 
-![htmlacademy](/img/htmlAcademyStats.png "htmlacademy")
+![htmlAcademyStats](https://user-images.githubusercontent.com/71702282/188666361-8414a05d-688e-493f-92d1-c1d5a899d4f1.png)
 
 ## Projects
 
-Travel
+- Travel
 
-![travel](/img/project2.png "Travel")
+![project3](https://user-images.githubusercontent.com/71702282/188666417-83cecd4b-2da2-40be-98a2-e076fe09a42b.png)
 
-Momentum
+- Momentum
 
-![momentum](/img/project1.png "Momentum")
+![project1](https://user-images.githubusercontent.com/71702282/188666428-dd7e0b62-6c17-4726-ba38-0931ed6ac95b.png)
 
-Codejam
+- Codejam
 
-![codejam](/img/project3.png "Codejam")
+![project2](https://user-images.githubusercontent.com/71702282/188666438-38173d97-d599-4b20-b017-87235494407a.png)
 
 ## English
 
