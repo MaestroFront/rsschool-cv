@@ -135,15 +135,15 @@
         <div class="code__content">
           <div class="code__item">
             <pre>
-<code>const convert = (input, source, target, s = 0, str = '') => {
+<code>const convert = (input, source, target, s = 0, str = '') =&gt; {
 
-  const fromInputToSourceSystem = () => {
-    input.split('').map(item => s = s * source.length + source.indexOf(item));
+  const fromInputToSourceSystem = () =&gt; {
+    input.split('').map(item =&gt; s = s * source.length + source.indexOf(item));
   }
 
   fromInputToSourceSystem();
 
-  const fromSourceSystemToTargetSystem = () => {
+  const fromSourceSystemToTargetSystem = () =&gt; {
     while (s &gt; 0) {
       str = target[s % target.length] + str;
       s = Math.floor(s / target.length);
@@ -170,7 +170,7 @@
           </div>
           <div class="code__item">
             <pre>
-<code>const isPrime = (number) => {
+<code>const isPrime = (number) =&gt; {
 
   if (number &lt; 2) return false;
 
