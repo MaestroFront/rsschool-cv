@@ -6,7 +6,7 @@
 * WhatsApp: +7(991)514-27-16
 * vk: alex_notsimple
 * telegram: @aleksandr_akiev
-* inst: akiev_aleksandr_
+* instagram: akiev_aleksandr_
 * discord on rs school's server: Maestro(@MaestroFront)
 
 ## About me
@@ -25,16 +25,13 @@ I started to study the profession of frontend developer on my own
 * CSS
 * JS (a little)
 * Flex
-* Grid
 * Visual Studio Code
-* prepros
 * SASS
 * Codewars
 * HTML Academy
 * learn.js
 * arrays
 * objects
-* GULP (so so)
 * layout
 * Figma
 * BEM
@@ -70,6 +67,17 @@ Passed the simulators in HTML Academy, independent study on the learn.js and hav
 
 ![codewars](/img/codewars.png "codewars")
 ![htmlacademy](/img/htmlacademy.png "htmlacademy")
+
+## Projects
+
+- Travel
+![travel](/img/project2.png "Travel")
+
+- Momentum
+![momentum](/img/project1.png "Momentum")
+
+- Codejam
+![codejam](/img/project3.png "Codejam")
 
 ## English
 
