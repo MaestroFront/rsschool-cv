@@ -1,12 +1,13 @@
 # Aleksandr Akiev
-![avatar](/img/newavatar.jpg "Avatar")
+![avatar](https://user-images.githubusercontent.com/71702282/188426240-b3003bbb-2f4c-444c-9d4d-87cf1b5cc703.jpg)
+
 
 ## Contacts
 
 * WhatsApp: +7(991)514-27-16
 * vk: alex_notsimple
 * telegram: @aleksandr_akiev
-* inst: akiev_aleksandr_
+* instagram: akiev_aleksandr_
 * discord on rs school's server: Maestro(@MaestroFront)
 
 ## About me
@@ -19,22 +20,21 @@ I have a desire to study in the field of IT in frontend development.
 There is no work experience in this field.
 I started to study the profession of frontend developer on my own
 
+I finished Stage 0 at RS School.
+
 ## Skills
 
 * HTML
 * CSS
 * JS (a little)
 * Flex
-* Grid
 * Visual Studio Code
-* prepros
 * SASS
 * Codewars
 * HTML Academy
 * learn.js
 * arrays
 * objects
-* GULP (so so)
 * layout
 * Figma
 * BEM
@@ -42,34 +42,56 @@ I started to study the profession of frontend developer on my own
 
 ## Code example (Codewars)
 
-```
-function countPositivesSumNegatives(input) {
-  if (input === null || input.length === 0) {
-    return [];
+```js
+const convert = (input, source, target, s = 0, str = '') => {
+
+  const fromInputToSourceSystem = () => {
+    input.split('').map(item => s = s * source.length + source.indexOf(item));
   }
-  let amount = 0;
-  let sum = 0;
-  for (let i = 0; i < input.length; i++) {
-    if (input[i] > 0) {
-      amount++;
-    } else if (input[i] < 0) {
-      sum += input[i];
+
+  fromInputToSourceSystem();
+
+  const fromSourceSystemToTargetSystem = () => {
+    while (s > 0) {
+      str = target[s % target.length] + str;
+      s = Math.floor(s / target.length);
     }
   }
-  return [amount, sum];
+
 }
 ```
 
 ## Experience
 
-No work experience
+Rs-School - Stage #0.
 
 ## Education
 
-Passed the simulators in HTML Academy, independent study on the learn.js and have pracrice on Codewars's platform
+- stage#0 (RS School)
 
-![codewars](/img/codewars.png "codewars")
-![htmlacademy](/img/htmlacademy.png "htmlacademy")
+![stage0](https://user-images.githubusercontent.com/71702282/188666314-591ebdf7-ace7-45e4-a643-4167143d095f.png)
+
+- codewars
+
+![codewarsStats](https://user-images.githubusercontent.com/71702282/188666336-2775e424-0a15-42f6-a414-79154b0c9e01.png)
+
+- htmlAcademy
+
+![htmlAcademyStats](https://user-images.githubusercontent.com/71702282/188666361-8414a05d-688e-493f-92d1-c1d5a899d4f1.png)
+
+## Projects
+
+- Travel
+
+![project3](https://user-images.githubusercontent.com/71702282/188666417-83cecd4b-2da2-40be-98a2-e076fe09a42b.png)
+
+- Momentum
+
+![project1](https://user-images.githubusercontent.com/71702282/188666428-dd7e0b62-6c17-4726-ba38-0931ed6ac95b.png)
+
+- Codejam
+
+![project2](https://user-images.githubusercontent.com/71702282/188666438-38173d97-d599-4b20-b017-87235494407a.png)
 
 ## English
 
