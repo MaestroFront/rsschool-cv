@@ -74,13 +74,16 @@ Passed the simulators in HTML Academy, independent study on the learn.js and hav
 
 ## Projects
 
-- Travel
+Travel
+
 ![travel](/img/project2.png "Travel")
 
-- Momentum
+Momentum
+
 ![momentum](/img/project1.png "Momentum")
 
-- Codejam
+Codejam
+
 ![codejam](/img/project3.png "Codejam")
 
 ## English
