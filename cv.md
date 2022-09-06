@@ -73,12 +73,6 @@ Passed the simulators in HTML Academy, independent study on the learn.js and hav
 - Travel
 ![travel](/img/project2.png "Travel")
 
-- Momentum
-![momentum](/img/project1.png "Momentum")
-
-- Codejam
-![codejam](/img/project3.png "Codejam")
-
 ## English
 
 Pre-Intermediate
