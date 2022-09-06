@@ -1,5 +1,6 @@
 # Aleksandr Akiev
-![avatar](/img/newavatar.jpg "Avatar")
+![avatar](https://user-images.githubusercontent.com/71702282/188426240-b3003bbb-2f4c-444c-9d4d-87cf1b5cc703.jpg)
+
 
 ## Contacts
 
@@ -18,6 +19,8 @@ Strengths: diligence, diligence, responsibility, endurance, attentiveness
 I have a desire to study in the field of IT in frontend development.
 There is no work experience in this field.
 I started to study the profession of frontend developer on my own
+
+I finished Stage 0 at RS School.
 
 ## Skills
 
@@ -39,27 +42,28 @@ I started to study the profession of frontend developer on my own
 
 ## Code example (Codewars)
 
-```
-function countPositivesSumNegatives(input) {
-  if (input === null || input.length === 0) {
-    return [];
+```js
+const convert = (input, source, target, s = 0, str = '') => {
+
+  const fromInputToSourceSystem = () => {
+    input.split('').map(item => s = s * source.length + source.indexOf(item));
   }
-  let amount = 0;
-  let sum = 0;
-  for (let i = 0; i < input.length; i++) {
-    if (input[i] > 0) {
-      amount++;
-    } else if (input[i] < 0) {
-      sum += input[i];
+
+  fromInputToSourceSystem();
+
+  const fromSourceSystemToTargetSystem = () => {
+    while (s > 0) {
+      str = target[s % target.length] + str;
+      s = Math.floor(s / target.length);
     }
   }
-  return [amount, sum];
+
 }
 ```
 
 ## Experience
 
-No work experience
+Rs-School - Stage #0.
 
 ## Education
 
