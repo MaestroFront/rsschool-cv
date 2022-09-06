@@ -69,7 +69,7 @@ Rs-School - Stage #0.
 
 Passed the simulators in HTML Academy, independent study on the learn.js and have pracrice on Codewars's platform
 
-![codewars](/svg/codewars.svg "codewars")
+![codewars](/img/codewarsStats.png "codewars")
 ![htmlacademy](/img/htmlAcademyStats.png "htmlacademy")
 
 ## Projects
